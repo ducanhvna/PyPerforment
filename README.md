@@ -1,7 +1,9 @@
-#Đo performent cho python
+# Đo performent cho python
 
 ## Pylint
 Giống static code checking trong C++ (Parasoft)
+### Trước khi check
+
 ```bash
 class car:
     def __init__(self, color):
@@ -14,6 +16,7 @@ def crash(car1, car2):
 crash(car('red'), my_car)
 
 ```
+### Sau khi check
 
 ```bash
 class Car:
