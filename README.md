@@ -16,6 +16,22 @@ def crash(car1, car2):
 crash(car('red'), my_car)
 
 ```
+#### Danh sách warning
+```bash
+************* Module example
+example.py:8:0: C0303: Trailing whitespace (trailing-whitespace)
+example.py:9:0: C0304: Final newline missing (missing-final-newline)
+example.py:1:0: C0111: Missing module docstring (missing-docstring)
+example.py:1:0: C0103: Class name "car" doesn't conform to PascalCase naming style
+(invalid-name)
+example.py:1:0: C0111: Missing class docstring (missing-docstring)
+example.py:1:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+example.py:5:0: C0103: Constant name "my_car" doesn't conform to UPPER_CASE naming
+style (invalid-name)
+example.py:6:0: C0111: Missing function docstring (missing-docstring)
+example.py:6:16: W0613: Unused argument 'car2' (unused-argument)
+```
+
 ### Sau khi check
 
 ```bash
